@@ -1,0 +1,48 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+.container{
+    width: 200px;
+    margin-top: 50px;
+}
+.caja{
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.boton{
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(3, 66, 129);
+    color: white;
+    margin-bottom: 10px;
+}
+.boton2{
+    background-color: red;
+}
+.boton3{
+    background-color: blue;
+}
+.boton4{
+    background-color: green;
+}
+.boton5{
+    background-color: orange;
+}
+.nuevo{
+    width: 200px;
+    background-color: rgb(27, 197, 35);
+    height: 100px;
+    color: white;
+}

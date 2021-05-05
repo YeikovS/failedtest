@@ -1,0 +1,67 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+}
+.container{
+    width: 200px;
+    margin-top: 50px;
+}
+#elcontainerdelascajas{
+    width: 200px;
+    grid-template-areas:"suma resta"
+                        "multi divi";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3px;
+    grid-template-rows: 10% 10%;
+}
+.suma{
+    grid-area: suma;
+    background-color: burlywood;
+    text-align: center;
+}
+.resta{
+    grid-area: resta;
+    background-color: burlywood;
+    text-align: center;
+}
+.multi{
+    grid-area: multi;
+    background-color: burlywood;
+    text-align: center;
+}
+.divi{
+    grid-area: divi;
+    background-color: burlywood;
+    text-align: center;
+}
+.caja{
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.boton{
+    border: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: rgb(3, 66, 129);
+    color: white;
+    margin-bottom: 10px;
+}
+.boton2{
+    background-color: red;
+}
+.nuevo{
+    width: 200px;
+    background-color: rgb(27, 197, 35);
+    height: 100px;
+    color: white;
+}
